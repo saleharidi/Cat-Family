@@ -5,7 +5,20 @@ html{
 body{
   margin: 0;
   padding: 0;
+  background-color: bisque;
+}
 
+hr{
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 2px;
+    width: 90vw;
+    background-color: rgb(97, 48, 48)
+}
+
+.section-title hr{
+    width: 50vw;
 }
 
 nav{
@@ -16,8 +29,7 @@ nav{
     z-index: 950;
     width: 99vw;
     height: 13vh;
-    background-color: saddlebrown;
-    opacity: 85%;
+    background-color: rgba(139, 69, 19, 0.8);
     border-radius: 10px;
     display: flex;
     justify-content: flex-end;
@@ -45,28 +57,40 @@ nav ul li a{
     text-decoration: none;
 }
 
+#hero-section{
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
 .hero-img{
+    border-radius: 10px;
     height: 108vh;
     width: 99vw;
     object-fit: contain;
 }
 
-.lion-section-title{
+.section{
+    margin-bottom: 100px;
+}
+
+.section-title{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.lion-section-title h2{
-    font-size: 45px;
+.section-title h2{
+    font-size: 50px;
+    margin: 0;
 }
 
-.lion-img{
+.section-img{
     display: flex;
     justify-content: center;
     gap: 60px;
 }
 
-.lion-img img {
+.lion-img {
     border: 5px solid rgb(97, 48, 48);
     border-radius: 10px;
 }
